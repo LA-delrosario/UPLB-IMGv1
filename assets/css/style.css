@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Economica', sans-serif;
+	
+}
+
+/*index.html*/
+
+.left-side{
+	height: 100vh;
+	background-color: #FFD7D5;
+	color: #CD2945;
+}
+
+.welcome-content{
+	margin-top: 20%;
+	margin-left: 15%;
+}
+
+.jumbotron{
+	background-color: #FFD7D5;
+}
+
+.welcome-content .jumbotron p{
+	color: #231F20;
+	
+}
+.right-side{
+	height: 100vh;
+	background-color: #FFD7D5;
+}
+
+.landing-image{
+	margin-top: 10%;
+
+	width: 100%;
+	float: right;
+}
+
+/*home.html*/
+.logo-menu{
+	width: 40px;
+}
+
+.logo-menu-text{
+	width: 100px;
+}
+
+.navbar{
+	width: 100%;
+	background-color: #FBF7F6; /*off white*/
+}
+
+.home-content{
+	width: 100%;
+	height: 92vh;
+	background-color: #95EFE5; /*cerulean*/
+}
+
+.carousel-item{
+	height: 400px;
+}
+
+.car-content{
+	text-align: center;
+	margin-top: 40%;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #FBF7F6;	/*gray*/
+   /* box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); */   
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #D22647;	/*deep red*/
+}
+
+.carousel-indicators{
+	bottom: -100px;
+}
+
+.home-text{
+	margin-top: 30%;
+}
+
+.home-text h1{
+	font-size: 100px;
+	font-family: 'Advent Pro', sans-serif;
+	color: #D22647;
+}
+
+.home-text h2{
+	font-size: 50px;
+	font-family: 'Advent Pro', sans-serif;
+}
+
+.nav-item{
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 20px;
+	
+}
+
+.socials{
+	width: 40px;
+	margin: 5px;
+}
+
+.nav-item a{
+	color: #241E20;
+}
+.nav-item:hover{
+	border-bottom: 3px solid #D22647;
+	color: white;
+}
+
+.nav-item a:hover{
+	color: #D22647;
+}
+
+.active{
+	font-weight: bold;
+	border-bottom: 3px solid #D22647;
+}
+/*end of home.html*/
+
+/*contact-us.html*/
+.header-section{
+	width: 100%;
+	background-color: #95EFE5;
+}
+
+.contact-image{
+	width: 300px;
+	padding: 10px;
+	float: right;
+}
+
+.form-and-maps{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+label{
+	color: #D22647;
+	font-weight: bold;
+}
+
+.header-contact-text h1{
+	color: #D22647;
+}
+
+.header-contact-text{
+	margin-top: 10%;
+}
+
+.btn-danger{
+	background-color: #D22647;
+}
+
+footer{
+	background-color: #95EFE5;
+	text-align: center;
+}
