@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Economica', sans-serif;
-	
 }
 
 /*index.html*/
@@ -43,6 +42,10 @@
 }
 
 /*home.html*/
+
+.home-footer{
+	background-color: #95efe5;
+}
 .logo-menu{
 	width: 40px;
 }
@@ -109,6 +112,11 @@
 	font-family: 'Advent Pro', sans-serif;
 }
 
+.home-text p{
+	text-align: justify;
+
+}
+
 .nav-item{
 	font-family: 'Advent Pro', sans-serif;
 	font-size: 20px;
@@ -116,8 +124,8 @@
 }
 
 .socials{
-	width: 40px;
-	margin: 5px;
+	width: 30px;
+	margin: 12px;
 }
 
 .nav-item a{
@@ -145,9 +153,11 @@
 }
 
 .contact-image{
-	height: 50vh;
+	width: 70%;
+	/*height: 50vh;*/
 	padding: 10px;
 	float: right;
+	
 }
 
 .form-and-maps{
@@ -173,38 +183,229 @@ label{
 }
 
 footer{
-	background-color: #95EFE5;
-	text-align: center;
+	width: 100%;
+	background-color: #676465;
+	text-align: justify;
+	/*text-align-last: left;*/
+	color: #e1e1e1;
+}
+a{
+	color: #fbf7f5;
+}
+ul{
+	list-style: none;
+}
+a:hover{
+	color:#df263b;
+}
+.last-footer{
+	width: 100%;
+	border-top: 2px solid #e1e1e1;
+	background-color: #95efe5;
 }
 
+.LA-logo{
+	width: 30px;
+}
+
+.la-section, .copyright-section{
+	padding-top: 5px;
+
+}
+
+.copyright-section h6{
+	font-weight: bold;
+}
+
+.socials-footer{
+	float: right;
+	width: 20px;
+	margin: 10px;
+}
+
+.socials-header{
+	float: right;
+	font-size: 20px;
+}
+
+li {
+	text-decoration: none;
+	color: white;
+}
+.la-section a{
+	color: #646765;
+}
+.footer-col{
+	padding: 10px;
+}
+
+.footer-col-1{
+	border-left: 2px solid #fbf7f5;
+	padding-left: 10px;
+}
+
+.copyright-section{
+	color: #646765;
+
+}
+/*end of contact-us.html*/
+
+/*start of about-us.html*/
+.about-us{
+	width: 100%;
+	background-color: #fbf7f5;
+	text-align: justify;
+	padding: 10px;
+}
+
+.mission-vision{
+	width: 100%;
+	background-color: #fbf7f5;
+	text-align: justify;
+	padding-top: 20px;
+}
+
+.mission-vision h1{
+	text-align: center;
+	color: #df263b;
+}
+/*end of about-us.html*/
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  .landing-image-mobile{
-  	display: block;
-  	width: 100%;
-  	margin-top: 20%;
-  }
+/*start of index.html*/
+	.landing-image-mobile{
+	  	display: block;
+	  	width: 100%;
+	  	margin-top: 20%;
+	}
 
-  .landing-image{
-  	display: none;
-  }
+	.landing-image{
+  		display: none;
+	}
 
-  .welcome-content{
-	margin-top: 5%;
-	margin-left: 1%;
+	.welcome-content{
+		margin-top: 5%;
+		margin-left: 1%;
+	}
+/*end of index.html*/
+
+/*start of footer*/
+	.footer-col h4{
+		font-size: 12px;
+	}
+
+	.footer-col p,a{
+		font-size: 8px;
+	}
+
+	.copyright-section h5{
+		font-size: 8px;
+	}
+
+	.LA-logo{
+		width: 10px;
+		margin: 5px;
+	}
+
+	.btn{
+		font-size: 10px;
+		padding: 3px;
+	}
+
+	.form-control{
+		width: 100%;
+		height: 20px;
+		font-size: 8px;
+		padding: 0px;
+	}
+	.socials-footer{
+		width: 10px;
+		margin-top: 12px;
+		margin-left: 5px;
+	}
+/*end of footer*/
+/*start of home.html*/
+	.home-text{
+		margin-top: 1%;
+	}
+	.home-content{
+		width: 100%;
+		height: 50%;
+		background-color: #95EFE5; /*cerulean*/
+	}
+
+	.carousel-item{
+		height: 200px;
+	}
+	.carousel-indicators{
+		bottom: 0px;
+	}
+
+	.home-text, .home-footer{
+		text-align: center;
+	}
+
+	.home-text h1{
+		font-size: 40px;
+	}
+
+	.home-text h2{
+		font-size: 30px;
+	}
+/*end of home.html*/
 }
- }
+
+	
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
- 
+	
+/* start offooter*/
+	.footer-col h4{
+		font-size: 18px;
+	}
+
+	.footer-col p,a{
+		font-size: 12px;
+	}
+
+	.copyright-section h5{
+		font-size: 14px;
+	}
+/*end of footer*/
+
+/*start of home.html*/
+	.home-text{
+		margin-top: 1%;
+	}
+	.home-content{
+		width: 100%;
+		height: 50%;
+		background-color: #95EFE5; /*cerulean*/
+	}
+
+	.carousel-item{
+		height: 500px;
+	}
+	.carousel-indicators{
+		bottom: 0px;
+	}
+
+	.home-text, .home-footer{
+		text-align: center;
+	}
+	.home-text p{
+		text-align-last: center
+	}
+/*end of home.html*/
 }
+
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   
   
- }
+}
 
 
 
