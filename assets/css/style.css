@@ -5,6 +5,27 @@
 	font-family: 'Economica', sans-serif;
 }
 
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {  
+  border-color: #df263b;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(223, 38, 59, 0.6);
+  outline: 0 none;
+}
+
 /*index.html*/
 .left-side{
 	height: 100vh;
@@ -156,8 +177,7 @@
 	width: 70%;
 	/*height: 50vh;*/
 	padding: 10px;
-	float: right;
-	
+	float: right;	
 }
 
 .form-and-maps{
@@ -165,7 +185,7 @@
 	margin-bottom: 20px;
 }
 
-label{
+label{ 
 	color: #D22647;
 	font-weight: bold;
 }
@@ -270,6 +290,192 @@ li {
 	color: #df263b;
 }
 /*end of about-us.html*/
+
+/*start of gallery*/
+.images{
+	height: 250px;
+	padding: 10px;
+}
+
+.card{
+	border-color: #95efe5;
+	margin-bottom: 10px;
+	background-color:#fbf7f5;
+	color: #676465;
+}
+
+.gallery-header-text{
+	color:#676465;
+}
+
+.card:hover{
+	border-color: #676465;
+	background-color: #95efe5;
+	color: #df263b;
+}
+
+/*end of gallery*/
+
+/*start of what-we-do.html*/
+.what-we-do-main{
+	width: 100%;
+	padding: 3%;
+}
+
+.what-we-do-main:hover{
+	transform: scale(1.05);
+}
+
+/*end of what-we-do.html*/
+
+/*start of what-we-do-inner.html*/
+.what-we-do-header{
+	border: 2px solid #676465;
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	height: 90vh;
+}
+
+.what-we-do-header a{
+
+	color: #676465;
+}
+
+.what-we-do-header a:hover{
+	color: #df263b;
+}
+
+.what-we-do-photog h1{
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+
+	/* IE */
+	-ms-transform: rotate(-90deg);
+
+	/* Opera */
+	-o-transform: rotate(-90deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+	color: #df263b;
+	font-size: 150px;
+	margin-top: 220%;
+	margin-bottom: 10%;
+
+}
+
+.what-we-do-videog h1{
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+
+	/* IE */
+	-ms-transform: rotate(-90deg);
+
+	/* Opera */
+	-o-transform: rotate(-90deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+	color: #95efe5;
+	font-size: 150px;
+	margin-top: 200%;
+	margin-bottom: 15%;
+}
+
+.what-we-do-trad h1{
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+
+	/* IE */
+	-ms-transform: rotate(-90deg);
+
+	/* Opera */
+	-o-transform: rotate(-90deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+	color: #D6B467;
+	font-size: 120px;
+	margin-top: 210%;
+	margin-bottom: 30%;
+}
+
+.what-we-do-digital h1{
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+
+	/* IE */
+	-ms-transform: rotate(-90deg);
+
+	/* Opera */
+	-o-transform: rotate(-90deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+	color: #CBE667;
+	font-size: 120px;
+	margin-top: 100%;
+	margin-bottom: 30%;
+	
+}
+
+/*end of what-we-do-inner.html*/
+
+/*start of events.html*/
+.header-section-events{
+	width: 100%;
+	background-color: #95EFE5;
+	text-align: center;
+}
+
+.events-header-image{
+	margin: 0 auto;
+	margin-top: -10%;
+	margin-bottom: 2%;
+	width: 820px;
+}
+
+.events-img{
+	width: 300px;
+	float: right;
+	margin: 1%;
+}
+
+.events-img-1{
+	width: 300px;
+	float: left;
+	margin: 1%;
+}
+
+.red{
+	color:#df263b;
+}
+
+
+
+
+
+/*end of events.html*/
+
+
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 /*start of index.html*/
@@ -398,6 +604,23 @@ li {
 		text-align-last: center
 	}
 /*end of home.html*/
+
+/*start of what-we-do inner*/
+.what-we-do-digital h1{
+	/* Safari */
+	-webkit-transform: rotate(90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(90deg);
+
+	/* IE */
+	-ms-transform: rotate(90deg);
+
+	/* Opera */
+	-o-transform: rotate(90deg);
+}
+
+/*end of what-we-do inner*/
 }
 
 
