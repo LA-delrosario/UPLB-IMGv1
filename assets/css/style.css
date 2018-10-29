@@ -120,7 +120,7 @@ input[type="color"]:focus,
 
 .carousel-indicators{
 	margin-top: 100px;
-	bottom: -100px;
+	/*bottom: -100px;*/
 }
 
 .home-text{
@@ -633,7 +633,9 @@ li {
 /*end of home.html*/
 
 /*start of what-we-do.html*/
-	
+	.fill-row{
+		padding-bottom: 10%;
+	}
 /*end of what-we-do.html*/
 
 
